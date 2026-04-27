@@ -4,6 +4,8 @@ on:
     branches:
       - master
       - dev
+      - main
+  workflow_dispatch:
 jobs:
   repo-sync:
     env:
